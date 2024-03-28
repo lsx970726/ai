@@ -1,6 +1,7 @@
 # ai 目录结构
 
-本项目使用Langchain框架构建了一个全栈AI应用系统,目录结构如下:  
+本项目使用Langchain框架构建了一个全栈AI问答系统，够能实时回答此刻各大主流媒体、热搜等趋势。
+目录结构如下:  
 ai/  
 ├── UI/ # React前端页面  
 │ ├── public/ # 静态文件  
@@ -9,6 +10,7 @@ ai/
 ├── backend/ # 后端GraphQL、API  
 │ ├── app.py # 主应用入口  
 │ └── utils/ # 工具模块  
+│ └── schemas/ #  GraphQL 的模式定义  
 ├── ChatGLM3/ # ChatGLM3问答  
 │ ├── agents/ # 自定义Agent  
 │ ├── models/ # 模型加载、微调代码  
@@ -19,10 +21,19 @@ ai/
 │ └── data/ # Kafka数据存储、预处理代码  
 ├── log/ # 日志文件  
 ├── tests/ # 测试用例  
-├── start.sh # 运行
-└── stop.sh # 停止  
-└── requirements.txt # 依赖 
-
+├── config/ # 配置文件  
+├── docs/ # 文档  
+├── scripts/ # 脚本  
+│ └── db_move.sh # 数据库迁移  
+│ └── clean.sh # 清理  
+│ └── backup.sh # 备份  
+├── Dockerfile  # docker支持  
+│ └── docker-compose.yml    # docker-compose支持  
+├── .env # 环境变量  
+├── .gitignore # 忽略文件  
+├── start.sh # 运行  
+├── stop.sh # 停止  
+└── requirements.txt  # 依赖 
 
 
 
