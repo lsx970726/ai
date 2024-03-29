@@ -1,0 +1,11 @@
+prefix=/data/lsx/ai/.env/ai
+exec_prefix=/data/lsx/ai/.env/ai
+libdir=/data/lsx/ai/.env/ai/lib
+includedir=/data/lsx/ai/.env/ai/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

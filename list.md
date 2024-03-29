@@ -11,7 +11,7 @@ ai/
 │ ├── app.py # 主应用入口  
 │ └── utils/ # 工具模块  
 │ └── schemas/ #  GraphQL 的模式定义  
-├── ChatGLM3/ # ChatGLM3问答  
+├── chatglm3/ # ChatGLM3问答  
 │ ├── agents/ # 自定义Agent  
 │ ├── models/ # 模型加载、微调代码  
 │ └── data/ # 数据存储、预处理代码  
@@ -47,3 +47,4 @@ ai/
 5. 引入MongoDB
 6. 引入Minio
 7. 为实现自动化构建、测试和部署,可以引入CI/CD工具,如Jenkins、GitHub Actions等。
+8. SQL注入、跨站脚本攻击（XSS）和跨站请求伪造（CSRF）等安全性考量
