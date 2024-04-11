@@ -74,3 +74,11 @@ API 路由: /query (问答查询接口)
 使用 Notion/GitBook 等文档工具编写开发文档,存储在 docs/
 使用 Trello/Github Projects/Asana 等项目管理工具,规划和跟踪自己的开发进度
 可选择使用 Obsidian 等知识管理工具,梳理和总结所学知识
+
+
+## 项目依赖
+
+### 自用依赖
+
+- Python 3.9
+- cuda_11.2
