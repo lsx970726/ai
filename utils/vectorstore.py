@@ -1,5 +1,5 @@
 # 向量存储库
-from langchain.vectorstores import Chroma, FAISS, Weaviate, Qdrant, ATIS, Pinecone, Redis, PGVector, Milvus
+from langchain_community.vectorstores import Chroma, FAISS, Weaviate, Qdrant, Pinecone, Redis, PGVector, Milvus
 import pinecone
 import chromadb
 
